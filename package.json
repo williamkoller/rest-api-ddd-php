@@ -1,0 +1,16 @@
+{
+  "name": "rest-api-ddd-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx --package=prettier-php prettier-php --write '**/*.php'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.4",
+    "prettier": "^3.5.3"
+  }
+}
