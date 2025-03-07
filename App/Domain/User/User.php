@@ -23,6 +23,10 @@ class User implements IUser
       throw new \InvalidArgumentException("E-mail Invalid: $email");
     }
 
+    if ($age < 0) {
+      throw new \InvalidArgumentException("Age cannot be negative: $age");
+    }
+
     $this->username = $username;
     $this->email = $email;
     $this->age = $age;
